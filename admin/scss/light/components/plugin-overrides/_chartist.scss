@@ -1,0 +1,129 @@
+.ct-series-a .ct-line {
+  stroke: lighten($blue, 15);
+  stroke-width: 3px;
+  stroke-dasharray: 10px 20px;
+}
+
+.ct-series-a .ct-point {
+  stroke: lighten($blue, 1);
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.ct-series-b .ct-line {
+  stroke: lighten($green, 15);
+  stroke-width: 3px;
+  stroke-dasharray: 10px 20px;
+}
+
+.ct-series-b .ct-point {
+  stroke: lighten($green, 1);
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.ct-series-c .ct-line {
+  stroke: lighten($orange, 15);
+  stroke-width: 3px;
+  stroke-dasharray: 10px 20px;
+}
+
+.ct-series-c .ct-point {
+  stroke: lighten($orange, 1);
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.ct-series-a .ct-bar {
+  stroke: lighten($blue, 15);
+  stroke-width: 20px;
+  stroke-dasharray: 0;
+  stroke-linecap: squre;
+}
+
+.ct-series-b .ct-bar {
+  stroke: lighten($green, 15);
+  stroke-width: 20px;
+  stroke-dasharray: 0;
+  stroke-linecap: squre;
+}
+
+.ct-series-c .ct-bar {
+  stroke: lighten($orange, 15);
+  stroke-width: 20px;
+  stroke-dasharray: 0;
+  stroke-linecap: squre;
+}
+
+.ct-series-d .ct-bar {
+  stroke: lighten($red, 15);
+  stroke-width: 20px;
+  stroke-dasharray: 0;
+  stroke-linecap: squre;
+}
+
+.ct-series-a .ct-slice-pie {
+  fill: lighten($blue, 15);
+  stroke-width: 4px;
+}
+
+.ct-series-b .ct-slice-pie {
+  fill: lighten($green, 15);
+  stroke-width: 4px;
+}
+
+.ct-series-c .ct-slice-pie {
+  fill: lighten($red, 15);
+  stroke-width: 4px;
+}
+
+.ct-series-d .ct-slice-pie {
+  fill: lighten($orange, 15);
+  stroke-width: 4px;
+}
+
+.ct-series-a .ct-slice-donut-solid {
+  fill: lighten($blue, 15);
+}
+
+.ct-series-b .ct-slice-donut-solid {
+  fill: lighten($green, 15);
+}
+
+.ct-series-c .ct-slice-donut-solid {
+  fill: lighten($red, 15);
+}
+
+.ct-series-a .ct-slice-donut-solid {
+  fill: lighten($orange, 15);
+}
+
+#ct-chart-dash-barChart {
+  .ct-series-a .ct-bar {
+    stroke: lighten($red, 10);
+    stroke-width: 20px;
+    stroke-dasharray: 0;
+    stroke-linecap: squre;
+  }
+
+  .ct-series-b .ct-bar {
+    stroke: lighten($blue, 10);
+    stroke-width: 20px;
+    stroke-dasharray: 0;
+    stroke-linecap: squre;
+  }
+
+  .ct-series-c .ct-bar {
+    stroke: lighten($blue, 15);
+    stroke-width: 20px;
+    stroke-dasharray: 0;
+    stroke-linecap: squre;
+  }
+
+  .ct-series-d .ct-bar {
+    stroke: lighten($blue, 20);
+    stroke-width: 20px;
+    stroke-dasharray: 0;
+    stroke-linecap: squre;
+  }
+}
