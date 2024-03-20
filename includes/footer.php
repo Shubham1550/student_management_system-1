@@ -35,7 +35,7 @@ foreach($results as $row)
       <?php $cnt=$cnt+1;}} ?></div>
       <div class="col-md-3 footer-right">
         <h3>SMS</h3>
-        <p>Proin eget ipsum ultrices, aliquet velit eget, tempus tortor. Phasellus non velit sit amet diam faucibus molestie tincidunt efficitur nisi.</p>
+        <p>Stay connected with our Student Management System (SMS) through our SMS section. This section offers quick access to important updates, notifications, and communication tools, ensuring seamless interaction between students, educators, and administrators.</p>
       </div>
       <div class="clearfix"> </div> 
     </div>
